@@ -5,3 +5,9 @@ To Run this on your PC <br/>
     2. in this folder there is a executable jar file of the java project run that file <br/>
     3. Remember your pc environment must be suitable to run this project (jdk-19 and libraries) <br/>
     4. you can check the "libraries" folder <br/>
+<br/>
+Youtube Link: <br/>
+    🔗https://youtu.be/kIH1O72EC2I?si=x-l7V1hRwU7x-wdw <br/>
+<br/>
+Website Link: <br/>
+    🔗https://sites.google.com/diu.edu.bd/farming-assistant/ <br/>
