@@ -210,12 +210,12 @@ public class LoginForm extends javax.swing.JFrame {
             Connect c = new Connect();
             String phone = phoneField.getText();
             String pin = pinField.getText();
-            String query = "select * from signup where mobile = '"+phone+"' and pin = '"+pin+"'";
+            String query = "select * from signup where phone = '"+phone+"' and pin = '"+pin+"'";
             
             try {
                 ResultSet rs = c.s.executeQuery(query);
                 if (rs.next()) {
-                    String reg = rs.getString("formno");
+                    String reg = rs.getString("reg");
                     String queryLog = "insert into login value('"+phone+"', '"+pin+"', '"+reg+"')";
                     c.s.executeUpdate(queryLog);
                     

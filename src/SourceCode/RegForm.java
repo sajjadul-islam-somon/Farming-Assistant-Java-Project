@@ -396,9 +396,9 @@ public class RegForm extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Please Check the Box");
             } else {
                 Connect c = new Connect();
-                String queryReg = "insert into signup value('"+reg+"', '"+name+"', '"+fname+"', '"+mname+"', '"+date+"', '"+nid+"', '"+phone+"', '"+address+"', '"+gender+"', '"+pin+"')";
+                String queryreg = "insert into signup value('"+reg+"', '"+name+"', '"+fname+"', '"+mname+"', '"+date+"', '"+nid+"', '"+phone+"', '"+address+"', '"+gender+"', '"+pin+"')";
                 
-                c.s.executeUpdate(queryReg);
+                c.s.executeUpdate(queryreg);
                 
                 
                 if (evt.getSource() == subBtn) {
